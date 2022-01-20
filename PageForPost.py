@@ -1,6 +1,6 @@
 import re
 
-from __main__ import UserExtension, initializer
+from blogger.utils import UserExtension, initializer
 
 class PageForPostExtension(UserExtension):
     @initializer
